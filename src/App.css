@@ -1,0 +1,43 @@
+.Grass{
+    position: absolute;
+    top: 100%;
+}
+.sliderBox{
+    background-color: lightgray;
+    border: .1rem;
+    border-color: black;
+    border-style: inset;
+    width: 50%;
+    
+    border-radius: 1rem;
+}
+.velocityBox{
+    flex: 1;
+}
+.angleBox{
+    flex: 1;
+}
+.fireButton{
+    height: 2rem !important;
+    width: 2rem !important;
+    cursor: pointer !important;
+    
+}
+.blurred{
+    filter: blur(5px);
+}
+.Modal{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+.sliders{
+    display: flex;
+}
+.shootButton{
+    background-color: white;
+    width: 5%;
+    margin-left: 50%;
+    border-radius: .2rem;
+    margin-bottom: 2%;
+}
